@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Task Manager</title>
+  <style>
+    body { font-family: Arial; max-width: 500px; margin: 40px auto; }
+    .completed { text-decoration: line-through; color: gray; }
+    button { margin-left: 5px; }
+    #errorMsg { color: red; }
+  </style>
+</head>
+<body>
+
+<h2>Task Manager</h2>
+
+<input id="taskInput" placeholder="Enter task title" />
+<button onclick="addTask()">Add</button>
+<div id="errorMsg"></div>
+
+<ul id="taskList"></ul>
+
+<script src="script.js"></script>
+</body>
+</html>
